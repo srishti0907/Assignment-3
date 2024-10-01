@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="site-header" role="banner">
+      <h1>Jam Box Studios</h1>
+      <nav class="main-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Reservation</a></li>
+          <li><a href="#">Studio</a></li>
+        </ul>
+      </nav>
+      <img src="images.jpeg " alt="A cute kitten sitting on a drum kit in the Jam Box Studio" class="banner">
+    </header>
+
+    <main class="main-content" role="main">
+      <h1>Welcome to Jam Box</h1>
+      <p>James Box is a visionary in the world of music production and creative innovation, known for founding Jam Box Studios, a premier destination for aspiring and established musicians alike. With a deep passion for fostering creativity, James designed the studio to be a space where artists could push their boundaries and experiment freely. His approach to music production blends state-of-the-art technology with an inviting, collaborative atmosphere, allowing musicians of all genres and backgrounds to feel at home while crafting their sound. Through his leadership, Jam Box Studios has become a hub for groundbreaking musical projects and artistic expression.</p>
+      <p>Beyond his technical expertise, James Box is celebrated for his commitment to inclusivity and community-building within the industry. Recognizing that great art thrives in diverse environments, he has dedicated his career to creating spaces that encourage collaboration across genres and cultures. Whether it's mentoring young artists or hosting community events, James is not only focused on the music itself but also on the people and the creative spirit that drive it forward. His legacy continues to shape the future of music, making Jam Box Studios a symbol of innovation and artistic empowerment.</p>
+
+      <section class="owner">
+        <h1>Meet the owner</h1>
+        <ul>
+          <li>Name: John Doe</li>
+          <li>Title: CEO</li>
+          <li>Email: <a href="mailto:johnjoe@jambox.ca">johnjoe@jambox.ca</a></li>
+          <li>Phone: <a href="tel:+16130000000">613-000-0000</a></li>
+        </ul>
+        <h1>Address</h1>
+        <address>
+          Jam Box Studios<br>
+          123 Guitar Road,<br>
+          Musicville, Danceistan<br>
+          B3T 0L0
+        </address>
+      </section>
+
+      <section class="contact-section">
+        <h1>Contact Us</h1>
+        <form action="thanks.html" method="post" role="form">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Full Name" aria-required="true" required>
+          
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email" aria-required="true" required>
+          
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject" aria-required="true" required>
+          
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Write your message here..." aria-required="true" required></textarea>
+          
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      &copy; 2021 Jam Box Studios
+    </footer>
+  </div>
+</body>
+
+</html>

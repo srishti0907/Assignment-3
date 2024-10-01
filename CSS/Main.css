@@ -1,0 +1,102 @@
+
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background-color: #f5f5f5; 
+    margin: 0;
+    padding: 0;
+    color: #0a0c01; 
+  }
+  
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+    color: #2d7aae; 
+  }
+  
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+ 
+  img {
+    width: 50%;
+    border-radius: 5px; 
+  }
+  
+  
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background-color: #110904; 
+  }
+  
+  .main-nav ul li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .main-nav ul li a {
+    display: block;
+    color: #ec0909; 
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 1rem 0;
+  }
+  
+  .main-nav ul li a:hover {
+    background-color: #37be72; 
+  }
+  
+  /* Form Styling */
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    border: 2px solid #e7841b; /* Green Border */
+    border-radius: 5px;
+  }
+  
+  form textarea {
+    min-height: 150px;
+    max-height: 150px;
+    height: 150px;
+    resize: none;
+  }
+  
+  form button {
+    background: #8a28ad; /* Red button */
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #b71c1c; /* Darker red on hover */
+  }
+  
+  /* Footer */
+  .site-footer {
+    background-color: #35b183; /* Vibrant Deep Orange */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.875rem;
+  }
+  
+  .site-footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .site-footer a:hover {
+    text-decoration: underline;
+  }
